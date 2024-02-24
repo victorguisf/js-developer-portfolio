@@ -45,19 +45,19 @@
 }
 
 .dados__importantes .job::before{
-    background-image: url(/assets/media/job.svg);    
+    background-image: url(../media/job.svg);    
 }
 
 .dados__importantes .location::before{
-    background-image: url(/assets/media/location.svg);    
+    background-image: url(../media/location.svg);    
 }
 
 .dados__importantes .phone::before{
-    background-image: url(/assets/media/phone.svg);    
+    background-image: url(../media/phone.svg);    
 }
 
 .dados__importantes .email::before{
-    background-image: url(/assets/media/email.svg);    
+    background-image: url(../media/email.svg);    
 }
 
 @media only screen and (min-width: 768px) {
