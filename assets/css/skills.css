@@ -1,0 +1,65 @@
+.skills {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.skills .tools ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap; /* USADO PARA NÃO ESTOURAR */
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+.skills .tools ul li img{
+    max-width: 50px;
+    margin: 0 0.5rem;
+}
+
+.skills .personal__skills ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.skills .personal__skills ul li{
+    margin-left: 2rem;
+    padding: 0.5rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .skills{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        flex-direction: row;
+    }
+
+    .skills .tools{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .skills .tools li {
+        width: calc(50% - 10px); /* Calcula 50% do width da UL com um espaçamento de 10px entre os itens */
+        margin-bottom: 20px;
+    }
+
+    .skills .tools li img{
+        max-width: 100%; /* Para garantir que as imagens não ultrapassem o tamanho do seu contêiner */
+        display: block; /* Remove espaços em branco abaixo das imagens */
+
+    }
+}

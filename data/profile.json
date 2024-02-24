@@ -1,0 +1,75 @@
+{
+    "name": "Victor Guilherme",
+    "photo": "https://avatars.githubusercontent.com/u/152915213?v=4",
+    "job": "Junior Developer",
+    "location": "Minas Gerais - BR",
+    "phone": "(32) 99805-6075",
+    "email": "victorgsf93@gmail.com",
+    "skills": {
+      "hardSkills": [
+        {
+          "name": "JavaScript",
+          "logo": "https://raw.githubusercontent.com/victorguisf/js-developer-portfolio/main/data/LogosTecnologias_PNG/js.png"
+        },
+        {
+          "name": "CSS",
+          "logo": "https://raw.githubusercontent.com/victorguisf/js-developer-portfolio/main/data/LogosTecnologias_PNG/css.png"
+        },
+        {
+          "name": "GitHub",
+          "logo": "https://raw.githubusercontent.com/victorguisf/js-developer-portfolio/main/data/LogosTecnologias_PNG/github.png"
+        },
+        {
+          "name": "Html",
+          "logo": "https://raw.githubusercontent.com/victorguisf/js-developer-portfolio/main/data/LogosTecnologias_PNG/html.png"
+        }
+      ],
+      "softSkills": [
+        "Comunicação",
+        "Liderança",
+        "Trabalho em equipe",
+        "Responsabilidade",
+        "Organização",
+        "Adaptabilidade"
+      ]
+    },
+    "languages": [
+      "Português BR",
+      "Inglês (Avançado)",
+      "Espanhol (Básico)"
+    ],
+    "portfolio": [
+      {
+        "name": "Pokedex usando API",
+        "url": "https://victorguisf.github.io/js-developer-pokedex/",
+        "github": true
+      },
+      {
+        "name": "Exercício de AD Portfólio",
+        "url": "https://victorguisf.github.io/exercicio-portfolio/",
+        "github": true
+      },
+      {
+        "name": "Criação de uma página de portfólio",
+        "url": "https://github.com/victorguisf/js-developer-portfolio",
+        "github": true
+      }
+    ],
+    "professionalExperience": [
+      {
+        "name": "Potência Tech iFood - Programação do Zero / dio.me",
+        "period": "27/11/2023 a 21/12/2023",
+        "description": "Aqui foi o meu primeiro contato com a área da programação onde aprendi diversas coisas e descobri uma nova paixão."
+      },
+      {
+        "name": "Imersão Front-end / alura.com.br",
+        "period": "22/01/2024 a 30/01/2024",
+        "description": "Além da imersão principal, antes de tudo foi disponibilizado um mini curso de nivelamento para verificar os próprios conhecimentos."
+      },
+      {
+        "name": "Formação Javascript Developer / dio.me",
+        "period": "01/02/2024 Current",
+        "description": "Este de fato foi o mais desafiador. Onde, além de todas as coisas que eu já tinha o prévio conhecimento, aprendi a mexer com APIs e como tudo pode se tornar mais simples."
+      }
+    ]
+  }

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.header .title {
+    text-align: center;
+    color: #fff;
+}
+
+.dados__importantes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    font-size: 15px;
+    color: #fff;
+}
+
+.dados__importantes p{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0.5rem;
+    font-size: 1.125rem;
+}
+
+.dados__importantes p::before{
+    content: '';
+    width: 1rem;
+    height: 1rem;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 0.5rem;
+}
+
+.dados__importantes .job::before{
+    background-image: url(/assets/media/job.svg);    
+}
+
+.dados__importantes .location::before{
+    background-image: url(/assets/media/location.svg);    
+}
+
+.dados__importantes .phone::before{
+    background-image: url(/assets/media/phone.svg);    
+}
+
+.dados__importantes .email::before{
+    background-image: url(/assets/media/email.svg);    
+}
+
+@media only screen and (min-width: 768px) {
+    .header {
+        flex-direction: row;
+        display: grid;
+        grid-template-areas: 
+            "img title"
+            "img dados__importantes"
+        ;
+    }
+    
+    .header img{
+        grid-area: img;
+        margin: 0 auto;
+        
+    }
+
+    .header .title{
+        grid-area: title;
+        text-align: start;
+        width: 210px;
+    }
+
+    .header .dados__importantes {
+        grid-area: dados__importantes;
+    }
+}
